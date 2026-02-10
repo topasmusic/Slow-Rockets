@@ -76,17 +76,3 @@ publishing {
 		// retrieving dependencies.
 	}
 }
-// Experimental server-side jar (separate mod id)
-tasks.register("serverJar", Jar) {
-	from(sourceSets.main.output.classesDirs)
-	from("src/server/resources")
-	archiveBaseName.set("${project.archives_base_name}-server")
-	archiveVersion.set("1.0.0+${project.minecraft_version}")
-	archiveClassifier.set("dev")
-}
-
-tasks.register("remapServerJar", net.fabricmc.loom.task.RemapJarTask) {
-	dependsOn tasks.named("serverJar")
-	inputFile.set(tasks.named("serverJar").flatMap { it.archiveFile })
-	archiveFileName.set("${project.archives_base_name}-server-1.0.0+${project.minecraft_version}.jar")
-}
