@@ -9,3 +9,7 @@
 /.vscode/
 /.idea/
 /*.iml
+
+# Local-only files
+MEMORY.md
+slow rockets.png
