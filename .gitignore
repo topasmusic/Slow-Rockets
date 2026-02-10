@@ -1,0 +1,11 @@
+# Gradle
+/.gradle/
+/build/
+
+# Fabric run dir
+/run/
+
+# IDE
+/.vscode/
+/.idea/
+/*.iml

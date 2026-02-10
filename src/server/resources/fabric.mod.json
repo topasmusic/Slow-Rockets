@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "slowrockets_server",
+	"version": "1.0.0-server",
+	"name": "Slow Rockets Server (Experimental)",
+	"description": "Experimental server-side Elytra boost throttling.",
+	"authors": [
+		"me"
+	],
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {
+		"server": [
+			"com.example.slowrockets.server.SlowRocketsServerExperimental"
+		]
+	},
+	"mixins": [
+		"slowrockets_server.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

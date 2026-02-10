@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.example.slowrockets.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FireworkRocketItemMixin",
+		"ServerPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
