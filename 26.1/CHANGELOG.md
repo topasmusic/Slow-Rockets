@@ -1,0 +1,7 @@
+# Changelog
+
+## 1.0 (Minecraft 26.1)
+
+- Added support for Minecraft 26.1.
+- Elytra firework boosts stay heavily reduced while normal gliding stays unchanged.
+- Servers can require the mod during login before players join.
