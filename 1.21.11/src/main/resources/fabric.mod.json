@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "slowrockets",
+	"version": "${version}",
+	"name": "Slow Rockets",
+	"description": "Reduces elytra firework boost speed by 80% (client-side).",
+	"authors": [
+		"me"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.example.slowrockets.SlowRockets"
+		],
+		"server": [
+			"com.example.slowrockets.SlowRocketsServer"
+		]
+	},
+	"mixins": [
+		"slowrockets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"fabric-api": ">=0.141.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
