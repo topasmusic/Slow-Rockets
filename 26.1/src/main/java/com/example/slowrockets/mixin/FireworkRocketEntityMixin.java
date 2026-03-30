@@ -73,7 +73,7 @@ public abstract class FireworkRocketEntityMixin {
 		method = "tick",
 		at = @At(
 			value = "INVOKE",
-			target = "Lnet/minecraft/world/entity/LivingEntity;setVelocity(Lnet/minecraft/world/phys/Vec3;)V"
+			target = "Lnet/minecraft/world/entity/LivingEntity;setDeltaMovement(Lnet/minecraft/world/phys/Vec3;)V"
 		)
 	)
 	private void slowrockets$notifyBoost(CallbackInfo ci) {

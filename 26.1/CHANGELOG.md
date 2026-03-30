@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (Minecraft 26.1)
+
+- Fixed a client startup crash in the 26.1 version.
+
 ## 1.0 (Minecraft 26.1)
 
 - Added support for Minecraft 26.1.
