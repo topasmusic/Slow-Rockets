@@ -21,9 +21,9 @@
 		"slowrockets.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.5",
-		"fabric-api": ">=0.144.4",
-		"minecraft": "~26.1",
+		"fabricloader": ">=0.18.6",
+		"fabric-api": ">=0.145.3",
+		"minecraft": "~26.1.1",
 		"java": ">=25"
 	}
 }
